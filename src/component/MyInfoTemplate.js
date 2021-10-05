@@ -2,7 +2,7 @@ import React from 'react';
 import './MyInfoTemplate.css';
 const MyInfoTemplate  = () =>{
   return (
-  <div className="title">
+  <div className="myInfo">
   내 정보
   </div>
   );

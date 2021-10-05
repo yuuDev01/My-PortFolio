@@ -1,10 +1,16 @@
-.title {
-    padding: 2rem;
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 100;
-    background: #ffffff;;
-    color: rgb(40, 42, 43);
+.skill {
+  padding: 2rem;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(47, 50, 56);  
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  height: 400px;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
   }
   
   .form-wrapper {

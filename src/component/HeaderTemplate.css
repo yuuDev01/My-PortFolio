@@ -1,13 +1,19 @@
 .title {
   padding: 2rem;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-align: center;
-  font-weight: 100;
-  background: #0e2e53;;
-  color: white;
+  font-weight: bold;
+  color: white;  
+  display: flex;
+  align-items: center;
+  
 }
 
 .form-wrapper {
+  background: #0e2e53;
+  height: 400px;
   padding: 1rem;
-  border-bottom: 1px solid #22b8cf;
+  justify-content: center;
+  display: flex;
+  /* border-bottom: 1px solid #22b8cf; */
 }

@@ -1,14 +1,14 @@
-.title {
-    padding: 2rem;
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 100;
-    background: #728aa7;;
-    color: white;
+.Intro {
+  padding: 2rem;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;  
+  display: flex;
+  align-items: center;
+  background: #728aa7;
+  height: 400px;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
   }
-  
-  .form-wrapper {
-    padding: 1rem;
-    border-bottom: 1px solid #22b8cf;
-  }
-  

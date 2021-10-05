@@ -2,7 +2,7 @@ import React from 'react';
 import './ProjectsTemplate.css';
 const ProjectsTemplate  = () =>{
   return (
-  <div className="title">
+  <div className="projects">
   Hello World
   </div>
   );
