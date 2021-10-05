@@ -1,13 +1,16 @@
 import React from 'react';
+import ReactTypingEffect from 'react-typing-effect';
 import './HeaderTemplate.css';
-const HeaderTemplate  = () =>{
+const HeaderTemplate  = ({typingEffect}) =>{
   return (
   <div className="form-wrapper">
-    <div className="title">
-     Hello World!
-    </div>
+    <ReactTypingEffect
+        text={["Hello, World!"]}
+      />
   </div>
   );
 }  
 
+
 export default HeaderTemplate;
+
