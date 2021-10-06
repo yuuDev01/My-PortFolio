@@ -3,7 +3,7 @@ import HeaderTemplate from './component/HeaderTemplate';
 import IntroTemplate from './component/IntroTemplate';
 import MyInfoTemplate from './component/MyInfoTemplate';
 import SkillsTemplate from './component/SkillsTemplate';
-import ProjectsTemplate from './component/ProjectsTemplate';
+import ProjectsTemplate from './component/project/ProjectsTemplate';
 
 class App extends Component {
   render() {

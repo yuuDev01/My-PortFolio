@@ -1,0 +1,18 @@
+어딜,가든
+2021
+사용자 맞춤형 반려식물정보 제공 웹사이트
+https://github.com/yuuDev01/whereGarden
+
+FestaBot(페스타봇)
+2020
+- 사용자의 의도를 파악하여 축제 정보를 제공하는 챗봇
+https://github.com/yuuDev01/festabot
+TF-idf 
+나이브베이즈
+
+keras / lstm
+
+울산 Together
+2019
+운동 매칭
+https://github.com/yuuDev01/UlsanAthelticMatching
