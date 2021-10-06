@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './ProjectInfo.css';
+import { Link } from 'react-router-dom';
+
 class ProjectInfo extends Component {
   static defaultProps = {
    info :  {
@@ -19,10 +21,13 @@ class ProjectInfo extends Component {
     <div className="infoForm">
       <img src={img} />
       <div className="infoText">
-        <div>{year}</div>
-        <div>{project}</div>
-        <div>{content}</div>
-        <div>{url}</div>
+        <div className="yearDiv">{year}</div>
+        <div className="prjDiv">{project}</div>
+        <div className="contetDiv">{content}</div>
+        <div className="btnDiv">
+          <button className="demoBtn"><a href={url}>Demo</a></button>
+          <button className="urlBtn"><a href={url}>Git</a></button>
+        </div>  
       </div>
     </div>
   );

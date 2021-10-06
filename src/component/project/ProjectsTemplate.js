@@ -43,7 +43,8 @@ class ProjectsTemplate extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="projects">
+        <div className="prj_title">Project</div>
         <ProjectInfoList data={this.state.information}/>
       </div>
     );

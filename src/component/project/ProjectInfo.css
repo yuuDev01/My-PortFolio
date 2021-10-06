@@ -1,8 +1,63 @@
 .infoForm{
   display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+  
 }
 img {
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   border: 1px solid gainsboro;
+}
+
+.infoText{
+  padding-left: 2%;
+  width: 50%;
+
+}
+
+/* 년도 */
+.yearDiv{
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  color: gray;
+  padding-bottom: 10%;
+}
+
+/* 프로젝트 명 */
+.prjDiv{
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: rgb(29, 29, 29);
+  padding-bottom: 2%;
+}
+
+/* 프로젝트내용 */
+.contetDiv{
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* 버튼 */
+.btnDiv{
+  padding: 5%;
+}
+/* git 저장 */
+.urlBtn{
+  border: none;
+  background-color: rgb(250, 195, 75);
+  width: 100px;
+  color: white;
+  margin:5px;
+}
+
+.demoBtn{
+  border: none;
+  background-color: rgb(250, 195, 75);
+  width: 100px;
+  color: white;
+  margin:5px;
 }
