@@ -8,12 +8,12 @@ const HeaderTemplate  = ({typingEffect}) =>{
 
   return (
   <div className="form-wrapper" {...animatedItem} >
-    {/* <ReactTypingEffect
+    <ReactTypingEffect
         text={["Hello, World!"]}
-      /> */}
-      <ReactTypingEffect
-        text={["ddd"]} 
       />
+      {/* <ReactTypingEffect
+        text={["ddd"]} 
+      /> */}
   </div>
   );
 }  

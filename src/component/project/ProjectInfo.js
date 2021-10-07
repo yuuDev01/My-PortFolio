@@ -21,13 +21,14 @@ class ProjectInfo extends Component {
   return(
     <div className="infoForm">
       <img src={img} />
+      <div className="updown"></div>
       <div className="infoText">
         <div className="yearDiv">{year}</div>
         <div className="prjDiv">{project}</div>
         <div className="contetDiv">{content}</div>
         <div className="btnDiv">
          <a href={demo} className="demoBtn" target="_blank">Demo</a>
-         <a href={url} className="urlBtn" target="_blank">Git</a>
+         <a href={url} className="urlBtn" target="_blank">&nbsp;&nbsp;&nbsp;Git&nbsp;&nbsp;&nbsp;</a>
         </div>  
       </div>
     </div>
