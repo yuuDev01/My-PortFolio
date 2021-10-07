@@ -3,7 +3,7 @@ import './SkillsTemplate.css';
 const SkillsTemplate  = () =>{
   return (
   <div className="skill">
-  Hello World
+  my skill
   </div>
   );
 }  

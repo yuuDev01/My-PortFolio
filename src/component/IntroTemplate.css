@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+
 .Intro {
+  width: 100vw;
+  height: 100vh;
   padding: 2rem;
-  font-size: 3.5rem;
+  font-family: 'nanumsquare',sans-serif;
+  font-size: 4rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 900;
   color: white;  
   display: flex;
   align-items: center;
-  background: #728aa7;
-  height: 500px;
+  background: #4d8596;
   padding: 1rem;
   justify-content: center;
   display: flex;

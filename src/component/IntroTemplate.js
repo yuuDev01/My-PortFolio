@@ -1,10 +1,18 @@
 import React from 'react';
 import './IntroTemplate.css';
+import Fade from 'react-fade-in'
+import { useScrollFadeIn } from '../hooks'
+
 const IntroTemplate  = () =>{
+  const animatedItem = useScrollFadeIn();
+
   return (
-  <div className="Intro">
-  Developer Park Yun Ju
+    <Fade bottom>
+  <div className="Intro" >
+  Developer <br /> 
+  Park Yun Ju
   </div>
+  </Fade>
   );
 }  
 

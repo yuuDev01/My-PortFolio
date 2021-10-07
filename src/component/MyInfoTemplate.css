@@ -1,20 +1,18 @@
 .myInfo {
+  width: 100vw;
+  height: 100vh;
   padding: 2rem;
   font-size: 3.5rem;
   text-align: center;
   font-weight: bold;
-  color: rgb(47, 50, 56);  
+  color: rgb(47, 56, 55);  
   display: flex;
   align-items: center;
-  background: #ffffff;
-  height: 400px;
+  background: #91fada;
   padding: 1rem;
   justify-content: center;
   display: flex;
   }
   
-  .form-wrapper {
-    padding: 1rem;
-    border-bottom: 1px solid #22b8cf;
-  }
+
   

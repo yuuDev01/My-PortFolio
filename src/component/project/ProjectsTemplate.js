@@ -15,6 +15,7 @@ class ProjectsTemplate extends Component {
       year : 2021,
       content : '사용자 맞춤형 반려식물정보 제공 웹사이트',
       url : 'https://github.com/yuuDev01/whereGarden',
+      demo : 'https://github.com/yuuDev01/whereGarden',
       img : img2
     },
     {
@@ -23,14 +24,16 @@ class ProjectsTemplate extends Component {
       year : 2020,
       content : '사용자의 의도를 파악하여 축제 정보를 제공하는 챗봇',
       url : 'https://github.com/yuuDev01/festabot',
+      demo : 'https://www.youtube.com/watch?v=GHfe_htA4ic',
       img : img1
     },
     {
       id : 2,
       project : '울산 Together',
       year : 2019,
-      content : '사용자의 의도를 파악하여 축제 정보를 제공하는 챗봇',
+      content : '안드로이드 기반 울산 지역내 운동 매칭 어플',
       url : 'https://github.com/yuuDev01/UlsanAthelticMatching',
+      demo : 'https://github.com/yuuDev01/UlsanAthelticMatching/blob/master/%EA%B5%AC%EB%8F%99%20%EC%98%81%EC%83%81.avi',
       img : img0
     }
   ]

@@ -1,7 +1,10 @@
 
 .form-wrapper {
-  background: #0e2e53;
-  height: 500px;
+  background-image: url('../img/backgroundimg.jpg');
+  background-repeat : no-repeat;
+  background-size : cover;
+  width: 100vw;
+  height: 100vh;
   padding: 1rem;
   justify-content: center;
   padding: 2rem;

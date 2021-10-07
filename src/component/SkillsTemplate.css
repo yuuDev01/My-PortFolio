@@ -1,4 +1,6 @@
 .skill {
+  width: 100vw;
+  height: 100vh;
   padding: 2rem;
   font-size: 3.5rem;
   text-align: center;
@@ -6,15 +8,9 @@
   color: rgb(47, 50, 56);  
   display: flex;
   align-items: center;
-  background: #ffffff;
-  height: 400px;
+  background: #ffa3a3;
   padding: 1rem;
   justify-content: center;
   display: flex;
-  }
-  
-  .form-wrapper {
-    padding: 1rem;
-    border-bottom: 1px solid #22b8cf;
   }
   
