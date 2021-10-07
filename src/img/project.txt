@@ -16,3 +16,21 @@ keras / lstm
 2019
 운동 매칭
 https://github.com/yuuDev01/UlsanAthelticMatching
+
+
+Front-end
+Html css js
+react
+jquery
+
+backend
+python 
+java
+
+
+version contrio
+git
+github
+
+my info  
+안녕하세요! 항상 발전하는 
