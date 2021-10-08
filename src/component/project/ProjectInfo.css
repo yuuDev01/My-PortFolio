@@ -7,10 +7,12 @@
   padding: 1rem;
   width: 95%;
   margin-bottom: 50px;
+  border: 1px solid rgb(218, 159, 32);
+  background-color: rgba(68, 68, 68, 0.082);
 }
 img {
-  height: 30%;
-  width: 30%;
+  height: 30vh;
+  width: 25vw;
   border: 1px solid gainsboro;
   
 }
@@ -29,7 +31,7 @@ img {
   text-align: left;
   font-size: 1.7rem;
   font-weight: bold;
-  color: gray;
+  color: rgb(80, 80, 80);
   padding-left: 5%;
   padding-bottom: 10%;
 }
