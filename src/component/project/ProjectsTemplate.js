@@ -4,6 +4,8 @@ import ProjectInfoList from './ProjectInfoList';
 import img0 from '../../img/prj0.JPG';
 import img1 from '../../img/prj1.JPG';
 import img2 from '../../img/prj2.JPG';
+import { useScrollFadeIn } from '../../hooks'
+import Fade from 'react-fade-in/lib/FadeIn';
 
 class ProjectsTemplate extends Component {
   id = 2
@@ -48,7 +50,8 @@ class ProjectsTemplate extends Component {
     return (
       <div className="projects">
         <div className="prj_title">Project</div>
-        <ProjectInfoList data={this.state.information}/>
+        <Fade bottom>
+        <ProjectInfoList data={this.state.information}/></Fade>
       </div>
     );
   }

@@ -34,3 +34,6 @@ github
 
 my info  
 안녕하세요! 항상 발전하는 
+
+가로스크롤 : npm install react-scroll-horizontal --save 
+한페이지 스크롤: npm install react-page-scroller --save

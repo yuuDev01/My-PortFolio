@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProjectInfo from './ProjectInfo';
+import ScrollHorizontal from 'react-scroll-horizontal';
 
 class ProjectInfoList extends Component {
   static defaultProps = {
