@@ -15,7 +15,7 @@ class ProjectsTemplate extends Component {
       year : 2021,
       content : '사용자 맞춤형 반려식물정보 제공 웹사이트',
       url : 'https://github.com/yuuDev01/whereGarden',
-      demo : 'https://github.com/yuuDev01/whereGarden',
+      demo : 'https://youtube.com/watch?v=_3VRJLx96j0&feature=share',
       img : img2
     },
     {

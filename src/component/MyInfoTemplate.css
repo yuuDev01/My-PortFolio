@@ -1,18 +1,41 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100,300,500,700,900&display=swap');
+
 .myInfo {
+  border: 1px solid red;
   width: 100vw;
   height: 100vh;
-  padding: 2rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
   color: rgb(47, 56, 55);  
-  display: flex;
   align-items: center;
-  background: #91fada;
-  padding: 1rem;
+  background: #ffffff;
   justify-content: center;
-  display: flex;
   }
-  
-
-  
+  .myInfo .title{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'nanumsquare' sans-serif;
+    color: rgb(47, 56, 55);  
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+  .myInfo .content{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'nanumsquare' sans-serif;
+    color: rgb(47, 56, 55);  
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+  }
+  .contact{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }

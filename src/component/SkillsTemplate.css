@@ -1,16 +1,27 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100,300,500,700,900&display=swap');
+
 .skill {
   width: 100vw;
   height: 100vh;
   padding: 2rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 900;
+  font-family: 'nanumsquare';
   color: rgb(47, 50, 56);  
   display: flex;
   align-items: center;
-  background: #ffa3a3;
+  background: #fffbfb;
   padding: 1rem;
   justify-content: center;
-  display: flex;
+  display: grid;
   }
   
+  .skill .title{
+    font-size: 1.5rem;
+  }
+
+  .skill .content{
+    font-size: 1rem;
+  }
