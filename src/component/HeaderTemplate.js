@@ -11,9 +11,6 @@ const HeaderTemplate  = ({typingEffect}) =>{
     <ReactTypingEffect
         text={["Hello, World!"]}
       />
-      {/* <ReactTypingEffect
-        text={["ddd"]} 
-      /> */}
   </div>
   );
 }  

@@ -21,7 +21,6 @@ class App extends Component {
     
     return (
       <div className="App">
-        <ReactPageScroller>
         <HeaderTemplate>헤더</HeaderTemplate>
       <IntroTemplate>인트로</IntroTemplate>
       <MyInfoTemplate>내정보</MyInfoTemplate>
@@ -42,7 +41,6 @@ class App extends Component {
       <SkillsTemplate>보유기술</SkillsTemplate>
       <ProjectsTemplate>프로젝트목록</ProjectsTemplate>
         </MobileView> */}
-        </ReactPageScroller>
       </div>
   );
  }
